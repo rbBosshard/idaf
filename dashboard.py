@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 import re
 
-from idaf.dashboard_helper import get_data_from_excel
+from dashboard_helper import get_data_from_excel
 
 # Optional: Altair für flexible Diagramme
 try:
